@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Services</title>
+   <link rel="stylesheet" href="styles/service.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+</head>
+<body>
+    <header id="header">
+        <div class="header-container">
+            <div class="header-content">
+                <div class="left-content">
+                  <a href="index.html">  <h2>
+                        <b>DOMENA</b> builders 
+                    </h2></a>
+                </div>
+                <div class="right-content">
+                    <nav class="navigation">
+                        <ul>
+                      <li><a href="index.html">home</a>
+                    </li>
+                        <li><a style=" color: rgb(254, 93, 93);" href="#">services</a>
+                        </li>
+                        <li><a href="project.html">project</a>
+                        </li>
+                        <li><a href="about.html">about us</a>
+                        </li>
+                        <li><a href="contant.html#target-section">contact us</a>
+                        </li>
+                        </ul>
+                    </nav>
+                    <a href="contant.html">
+                    <button class="header-btn">
+                        get a quote
+                        <i class="fa-solid fa-arrow-right-long"></i>
+                    </button>
+                </a>
+                <button class="sidebar-toggle" onclick="toggleSidebar()">
+                    <i class="fa-solid fa-bars"></i>
+                  </button>
+                  <aside class="sidebar">
+                    <div class="sidebar-header">
+                      <button class="close-btn"><i class="fas fa-times"></i></button>
+                    </div>
+                    <nav class="menu-navigation">
+                        <ul>
+                            <li><a href="index.html">home</a>
+                          </li>
+                          <li><a style=" color: rgb(254, 93, 93);" href="#">services</a>
+                          </li>
+                          <li><a href="project.html">project</a>
+                          </li>
+                          <li><a href="about.html">about us</a>
+                          </li>
+                   <li><a href="contant.html#target-section">contact us</a>
+                          </li>
+                          </ul>
+                      </nav>
+                      
+                      
+                    </aside>
+                    <script>
+                        // mobile screen
+        
+        const toggleBtn=document.querySelector(".sidebar-toggle");
+        const closeBtn=document.querySelector(".close-btn");
+        const sidebar=document.querySelector(".sidebar");
+        const body = document.body;
+        toggleBtn.addEventListener("click",function(){
+        // sidebar.classList.contains("sidebar");
+        // console.log(show)
+        // method one
+        // if (sidebar.classList.contains("show-sidebar")){
+        //   sidebar.classList.remove("show-sidebar");
+        // }else{
+        //   sidebar.classList.add("show-sidebar");
+        // }
+        // method two
+        sidebar.classList.toggle("show-sidebar")
+        if (sidebar.classList.contains('show-sidebar')) {
+        body.style.overflow = 'hidden'; // Disable scrolling
+        } else {
+        body.style.overflow = 'auto'; // Enable scrolling
+        }
+        })
+        
+        closeBtn.addEventListener("click",function(){
+        sidebar.classList.toggle("show-sidebar")
+        if (sidebar.classList.contains('close-btn')) {
+        body.style.overflow = 'hidden'; // Disable scrolling
+        } else {
+        body.style.overflow = 'auto'; // Enable scrolling
+        }
+        })
+                    </script>
+            </div>
+            </div>
+        </div>
+      </header>
+      <main>
+        
+        <section class="service">
+        <div class="service-caption">
+            <span>our services</span>
+            <h4>we offer a range of services
+              to meet your needs</h4> 
+        </div>
+        <div class="grid-container">
+            <div class="service-grid">
+                <div class="grid-colum">
+                    <div class="grid-cap">
+                        <img class="slide-up" src="images/commercial icon.jfif" alt="">
+                        <span>commercial</span>
+                        <p>Describe the service and how customers or clients
+                             can benefit from it. It’s an opportunity to add a short
+                              description with relevant details, like pricing, duration and 
+                              how to book.</p>
+                    </div>
+                </div>
+                <div class="grid-colum">
+                    <div class=" grid-cap">
+                        <img class="slide-up" src="images/commercial icon.jfif" alt="">
+                    <span>
+                        residential
+                    </span>
+                    <p>Describe the service and how customers or clients can benefit from it.
+                    It’s an opportunity to add a short description with relevant details, like pricing,
+                     duration and how to book.</p>
+                    </div>
+                </div>
+                <div class="grid-colum">
+                    <div class="grid-cap">
+                        <img class="slide-up" src="images/commercial icon.jfif" alt="">
+                        <span>
+                            PRE-CONSTRUCTION
+                        </span>
+                        <p>Describe the service and how customers or clients can benefit from it.
+                        It’s an opportunity to add a short description with relevant details, like pricing,
+                         duration and how to book.</p>
+                    </div>
+                </div>
+                <div class="grid-colum">
+<div class="grid-cap">
+<img class="slide-up" src="images/commercial icon.jfif" alt="">
+<span>
+site management
+</span>
+<p>Describe the service and how customers or clients can benefit from it.
+It’s an opportunity to add a short description with relevant details, like pricing,
+ duration and how to book.</p>
+</div>
+                </div>
+                <div class="grid-colum">
+<div class="grid-cap">
+<img class="slide-up" src="images/commercial icon.jfif" alt="">
+<span>
+special projects
+</span>
+<p>Describe the service and how customers or clients can benefit from it.
+It’s an opportunity to add a short description with relevant details, like pricing,
+ duration and how to book.</p>
+</div>
+                </div>
+                <div class="grid-colum">
+<div class="grid-cap">
+<img class="slide-up" src="images/commercial icon.jfif" alt="">
+<span>
+civil engineering
+</span>
+<p>Describe the service and how customers or clients can benefit from it.
+It’s an opportunity to add a short description with relevant details, like pricing,
+ duration and how to book.</p>
+</div>
+                </div>
+            </div>
+            <div class="picture-grid">
+                <img src="images/services img.webp" alt="">
+            </div>
+        </div>
+    </section>
+    </main>
+    <footer>
+        <div class="footer-container">
+            <div class="footer-header">
+                <div class="company-name">
+                   <a href="index.html">  <h2>
+                        <b>DOMENA</b> builders 
+                    </h2></a>
+                    <nav class="footer-nav">
+                        <ul>
+                            <li><a href="index.html">home</a>
+                          </li>
+                          <li><a style=" color: rgb(254, 93, 93);" href="services.html">services</a>
+                          </li>
+                          <li><a href="project.html">project</a>
+                          </li>
+                          <li><a href="about.html">about us</a>
+                          </li>
+                          <li><a href="contant.html#target-section">contact us</a>
+                          </li>
+                          </ul>
+                    </nav>
+                </div>
+                <div class="address">
+                    <h4>head office</h4>
+                    <p>500 terry francine st,
+                        san francisco, AC 94158
+                    </p>
+                    <i>123-456-7890 <br>
+                    info@mysite.com </i>
+                </div>
+                <div class="social">
+                    <h4>socials</h4>
+                    <ul>
+                        <li> <a href="https://www.facebook.com/">
+                        facebook </a></li>
+                    <li><a href="https://www.instagram.com/">instagram
+                    </a></li>
+                    <li><a href="https://www.linkedln.com/">linkedln</a></li>
+                </ul>
+                </div>
+                <div class="inquiries">
+                    <h4>inquiries</h4>
+                    <p>looking for a quote</p>
+                    <a href="contant.html">
+                        <button class="footer-btn">
+                            get a quote
+                            <i class="fa-solid fa-arrow-right-long"></i>
+                        </button>
+                    </a>
+                    <p> <a href="contant.html#contractor">
+                        become a subcontractor
+                    </a></p>
+                </div>
+            </div>
+        </div>
+        <div class="copy-right">
+          <a href="#">privacy policy</a>
+          <button onclick="topFunction()" id="myBtn" title="Go to top">back to top
+            <i class="fa-solid fa-arrow-right-long"></i>
+          </button>  
+       
+        <p>Copyright &copy;
+            <script>document.write(new Date().getFullYear());</script>
+             <i class="fa-solid fa-heart"></i>
+             by <a href="#" target="_blank">SATIVA</a>
+            </p>
+        </div>
+    <script>
+         // scrol back to the top
+        // Get the button
+let mybutton = document.getElementById("myBtn");
+
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0; // For Safari
+  document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE, and Opera
+}
+    </script>
+    </footer>
+<script src="slider2.js"></script>
+</body>
+</html>

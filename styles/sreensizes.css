@@ -1,0 +1,623 @@
+@media screen and (min-width: 751px) and (max-width: 1000px){
+    .header-content{
+        margin-left: 20px;
+    }
+}
+
+@media screen and (min-width: 751px) and (max-width: 1000px){
+    header.scrolled {
+        transition: all 0.3s ease-in-out;
+        background: rgb(45, 39, 39);
+    }   
+}
+@media screen and (min-width: 751px) and (max-width: 1000px){
+   .sidebar{
+    width: 50%;
+   }
+}
+@media screen and (min-width: 751px) and (max-width: 1000px){
+  
+}
+@media screen and (min-width: 751px) and (max-width: 1000px){
+    .sidebar-toggle{
+        display: block;
+    }
+}
+@media screen and (min-width: 751px) and (max-width: 1000px){
+    .navigation{
+        display: none;
+    }
+}
+@media screen and (min-width: 320px) and (max-width: 750px){
+    .menu-navigation{
+    top: 50px;
+}
+}
+@media screen and (min-width: 320px) and (max-width: 750px){
+.menu-navigation a{
+        line-height: 4;
+}
+}
+
+/* body */
+@media screen and (min-width: 751px) and (max-width: 1000px){
+    .stage1-caption{
+        margin-left: 20px;
+        margin-right: 0;
+    }
+}
+@media screen and (min-width: 751px) and (max-width: 1000px){
+    .stage1{
+        padding-right: 0;
+        padding-bottom: 200px;
+    }
+}
+@media screen and (min-width: 751px) and (max-width: 1000px){
+    .left-top{
+        padding-left: 40px;
+    }
+}
+@media screen and (min-width: 751px) and (max-width: 1000px){
+    .three-box{
+        border-bottom: 1px solid  rgb(254, 93, 93);
+        display: grid;
+        grid-template-columns: 1fr;
+        text-align: start;
+    }
+}
+@media screen and (min-width: 751px) and (max-width: 1000px){
+    .right-picture{
+        display: inline-block;
+    }
+}
+@media screen and (min-width: 751px) and (max-width: 1000px){
+    .stage2-container{
+        grid-template-columns: 1fr;
+        margin-right: 0;
+    }
+}
+@media screen and (min-width: 751px) and (max-width: 1000px){
+    .stage2{
+        padding-right: 0;
+    }
+}
+@media screen and (min-width: 751px) and (max-width: 1000px){
+    .left-caption{
+        border: none;
+    }
+}
+@media screen and (min-width: 751px) and (max-width: 1000px){
+    .progess{
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 40px;
+        width: 100%;
+        border: none;
+    }
+}
+@media screen and (min-width: 751px) and (max-width: 1000px){
+    .progess:nth-child(1),
+    .progess:nth-child(2) {
+        border-bottom: 1px solid rgb(254, 93, 93);
+    }
+}
+@media screen and (min-width: 751px) and (max-width: 1000px){
+    .right-picture{
+        padding: 0;
+        max-width: 100%;
+    }
+}
+@media screen and (min-width: 751px) and (max-width: 1000px){
+    .picture{
+  width: 100%;
+    }
+}
+@media screen and (min-width: 751px) and (max-width: 1000px){
+    .picture img{
+        width: 100%;
+        object-fit: cover;
+    object-position: 50% 50%;
+    }
+}
+@media screen and (min-width: 751px) and (max-width: 1000px){
+    .left-top h2{
+        width: 350px;
+    }
+}
+@media screen and (min-width: 751px) and (max-width: 1000px){
+    .left-top p{
+        width: 450px;
+    }
+}
+@media screen and (min-width: 751px) and (max-width: 1000px){
+    .stage3-container{
+        margin-left: 20px;
+    }
+}
+@media screen and (min-width: 751px) and (max-width: 1000px){
+    .stage3-caption p{
+        width: 280px;
+        max-width: 300px;
+    }
+
+}
+@media screen and (min-width: 751px) and (max-width: 1000px){
+
+}
+@media screen and (min-width: 751px) and (max-width: 1000px){
+   .slide{
+   min-width: 60%;
+    height: 400px;
+   }
+}
+
+@media screen and (min-width: 751px) and (max-width: 1000px){
+    .stage4-container{
+       padding: 0;
+        grid-template-columns: 1fr;
+    }
+}
+@media screen and (min-width: 751px) and (max-width: 1000px){
+    .left-grid{
+        padding: 0;
+        padding-left: 40px;
+    }
+}
+@media screen and (min-width: 751px) and (max-width: 1000px){
+    .right-grid{
+        margin-top: 40px;
+       border-left: none;
+       border-top: 1px solid rgb(254, 93, 93);
+    }
+}
+@media screen and (min-width: 751px) and (max-width: 1000px){
+    .grid-colum{
+     padding: 5px 40px 5px 40px;
+    }
+}
+@media screen and (min-width: 751px) and (max-width: 1000px){
+    .stage5-container{
+        grid-template-columns: 1fr;
+    }
+}
+@media screen and (min-width: 751px) and (max-width: 1000px){
+    .stage5-caption{
+        padding-left: 0;
+        padding-bottom: 0;
+    }
+}
+@media screen and (min-width: 751px) and (max-width: 1000px){
+    .video{
+        padding-left: 0;
+        padding-top: 0;
+    }
+}
+@media screen and (min-width: 751px) and (max-width: 1000px){
+    .stage6{
+        margin-top: 30px;
+        margin-bottom: 30px;
+        margin-left: 40px;
+    }
+}
+@media screen and (min-width: 751px) and (max-width: 1000px){
+    .partner{
+        padding: 20px 0 20px 0;
+    }
+}
+
+
+
+
+/* footer */
+@media screen and (min-width: 751px) and (max-width: 1000px){
+    .footer-container{
+        padding-left: 40px;
+    }
+}
+@media screen and (min-width: 751px) and (max-width: 1000px){
+    .footer-header{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        row-gap: 20px;
+        column-gap: 20rem;
+    }
+}
+@media screen and (min-width: 751px) and (max-width: 1000px){
+    .copy-right{
+        padding-left: 40px;
+    }
+}
+@media screen and (min-width: 751px) and (max-width: 1000px){
+.copy-right p{
+    margin-right: 40px;
+}
+}
+@media screen and (min-width: 751px) and (max-width: 1000px){
+
+}
+
+
+/* smallest screen */
+@media screen and (min-width: 320px) and (max-width: 750px){
+    .header-container{
+     padding-left: 0;
+    /* padding-right: 0; */
+    }
+}
+@media screen and (min-width: 320px) and (max-width: 750px){
+    .header-content{
+        margin-left: 20px;
+        margin-right: 0;
+    }
+}
+@media screen and (min-width: 320px) and (max-width: 750px){
+    .left-content h2{
+        font-size: 23px;
+        font-weight: 600;
+    }
+}
+@media screen and (min-width: 320px) and (max-width: 750px){
+    .header-btn {
+        width: 150px;
+        padding: 0;
+        
+    }
+}
+@media screen and (min-width: 320px) and (max-width: 750px){
+
+}
+@media screen and (min-width: 320px) and (max-width: 750px){
+    .navigation{
+        display: none;
+    }
+}
+@media screen and (min-width: 320px) and (max-width: 750px){
+    .sidebar-toggle{
+        display: block;
+    }
+}
+@media screen and (min-width: 320px) and (max-width: 750px){
+    .sidebar{
+        width: 100%;
+       }
+}
+@media screen and (min-width: 320px) and (max-width: 750px){
+    .stage1{
+        padding-left: 0;
+        padding-bottom: 200px;
+    }
+}
+@media screen and (min-width: 320px) and (max-width: 750px){
+    .stage1-caption{
+        width: 100%;
+        margin-left: 20px;
+        margin-right: 0;
+    }
+}
+@media screen and (min-width: 320px) and (max-width: 750px){
+    .stage1-caption h1{
+        font-size: 45px;
+        margin-bottom: 0;
+        font-weight: lighter;
+    }
+}
+@media screen and (min-width: 320px) and (max-width: 750px){
+    .stage1-caption p{
+        width: 300px;
+        font-size: 25px;
+        margin-top: 10px;
+        font-weight: 600;
+}
+}
+@media screen and (min-width: 320px) and (max-width: 750px){
+    
+}
+@media screen and (min-width: 320px) and (max-width: 750px){
+    
+}
+@media screen and (min-width: 320px) and (max-width: 750px){
+    .stage2-container{
+        max-width: 100%;
+        grid-template-columns: 1fr;
+        margin-right: 0;
+    }
+}
+@media screen and (min-width: 320px) and (max-width: 750px){
+    .stage2{
+        padding-right: 0;
+    }
+}
+@media screen and (min-width: 320px) and (max-width: 750px){
+    .left-top{
+        padding-left: 20px;
+    }
+}
+@media screen and (min-width: 320px) and (max-width: 750px){
+    .three-box{
+        border-bottom: 1px solid  rgb(254, 93, 93);
+        display: grid;
+        grid-template-columns: 1fr;
+        text-align: start;
+        /* padding-left: 40px; */
+    }
+}
+@media screen and (min-width: 320px) and (max-width: 750px){
+    .left-top h2{
+        max-width: 350px;
+        width: 300px;
+        font-size: 25px;
+        line-height: 1.4;
+        padding-top: 10px;
+    }
+}
+@media screen and (min-width: 320px) and (max-width: 750px){
+    .left-caption{
+        border: none;
+    }
+}
+@media screen and (min-width: 320px) and (max-width: 750px){
+    .progess{
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 20px;
+        width: 100%;
+        border: none;
+    }
+}
+@media screen and (min-width: 320px) and (max-width: 750px){
+    .progess:nth-child(1),
+    .progess:nth-child(2) {
+        border-bottom: 1px solid rgb(254, 93, 93);
+    }
+}
+@media screen and (min-width: 320px) and (max-width: 750px){
+    .right-picture{
+        padding: 0;
+        max-width: 100%;
+    }
+}
+@media screen and (min-width: 320px) and (max-width: 750px){
+    .picture{
+        width: 100%;
+          }
+}
+@media screen and (min-width: 320px) and (max-width: 750px){
+    .picture img{
+        width: 100%;
+        object-fit: cover;
+    object-position: 50% 50%;
+    }
+}
+@media screen and (min-width: 320px) and (max-width: 750px){
+    .stage3-container{
+        margin-left: 20px;
+    }
+}
+@media screen and (min-width: 320px) and (max-width: 750px){
+    .stage3{
+        padding-left: 0;
+        padding-right: 0;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 750px){
+    .stage3-caption{
+        display: grid;
+        grid-template-columns: 1fr;
+        row-gap: 30px;
+    }
+}
+@media screen and (min-width: 320px) and (max-width: 750px){
+    .stage3-caption p{
+        width: 280px;
+        line-height: 1.5;
+        max-width: 300px;
+    }
+}
+@media screen and (min-width: 320px) and (max-width: 750px){
+    .slide img {
+        height: 250px;
+    
+    }
+}
+@media screen and (min-width: 320px) and (max-width: 750px){
+    .slide{
+        min-width: 100%;
+        height: 300px;
+    }
+}
+@media screen and (min-width: 320px) and (max-width: 750px){
+    .slider{
+        padding-bottom: 0;
+    }
+}
+@media screen and (min-width: 320px) and (max-width: 750px){
+    .slide p{
+        font-size: 12px;
+        font-weight: 600;
+    }
+}
+@media screen and (min-width: 320px) and (max-width: 750px){
+    .slider-btn button{
+        top: 70%;
+    }
+}
+@media screen and (min-width: 320px) and (max-width: 750px){
+    .stage4-container{
+        padding: 0;
+         grid-template-columns: 1fr;
+     }
+}
+@media screen and (min-width: 320px) and (max-width: 750px){
+    .left-grid{
+        padding: 0;
+        padding-left: 20px;
+    }
+
+}
+@media screen and (min-width: 320px) and (max-width: 750px){
+    .right-grid{
+        grid-template-columns: 1fr;
+        margin-top: 40px;
+       border-left: none;
+       border-top: 1px solid rgb(254, 93, 93);
+    }
+}
+@media screen and (min-width: 320px) and (max-width: 750px){
+    .grid-colum{
+        max-width: 100%;
+        /* width: 100%; */
+        padding: 0;
+        padding-left: 20px;
+    }
+}
+@media screen and (min-width: 320px) and (max-width: 750px){
+    .grid-cap{
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+}
+@media screen and (min-width: 320px) and (max-width: 750px){
+    .grid-cap p{
+max-width: 350px;
+width: 320px;
+font-weight: 500;
+letter-spacing: 1.6px;
+line-height: 2;
+    }
+}
+@media screen and (min-width: 320px) and (max-width: 750px){
+    .grid-cap span{
+        font-weight: 600;
+        line-height: 4;
+    }
+}
+@media screen and (min-width: 320px) and (max-width: 750px){
+    .grid-colum:nth-child(2){
+        border-left: 0;
+        padding-right: 0;
+    }
+}
+@media screen and (min-width: 320px) and (max-width: 750px){
+    .grid-colum:nth-child(3){
+     border-bottom: 1px solid rgb(254, 93, 93);
+    }
+}
+@media screen and (min-width: 320px) and (max-width: 750px){
+    .grid-colum:nth-child(4){
+        padding-right: 0;
+        border-left: 0;
+    }
+}
+@media screen and (min-width: 320px) and (max-width: 750px){
+    .stage5-container{
+        grid-template-columns: 1fr;
+        margin: 0;
+    }
+}
+@media screen and (min-width: 320px) and (max-width: 750px){
+    .stage5-caption{
+        /* padding-left: 0; */
+        padding-bottom: 0;
+    }
+}
+@media screen and (min-width: 320px) and (max-width: 750px){
+    .video{
+        margin-right: 20px;
+        padding-top: 0;
+    }
+}
+@media screen and (min-width: 320px) and (max-width: 750px){
+    .stage6{
+        margin: 20px;
+    }
+}
+@media screen and (min-width: 320px) and (max-width: 750px){
+    .stage6-caption span{
+        line-height: 4;
+        font-size: 13px;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        font-weight: 600;
+}
+}
+@media screen and (min-width: 320px) and (max-width: 750px){
+    .stage6-caption{
+        padding-top: 50px;
+    }
+}
+@media screen and (min-width: 320px) and (max-width: 750px){
+    .stage6-caption p{
+        width: 250px;
+        
+    }
+}
+@media screen and (min-width: 320px) and (max-width: 750px){
+    .partner{
+        grid-template-columns: 1fr 1fr;
+        padding: 10px 10px 10px 50px;
+    }
+}
+
+/* footer */
+@media screen and (min-width: 320px) and (max-width: 750px){
+    .footer-container{
+        padding-left: 0;
+        padding-right: 0;
+        padding-bottom: 20px;
+    }
+}
+@media screen and (min-width: 320px) and (max-width: 750px){
+    .footer-header{
+        display: block;
+    }
+}
+@media screen and (min-width: 320px) and (max-width: 750px){
+    .company-name{
+        padding-left: 20px;
+        padding-bottom: 20px;
+    }
+}
+@media screen and (min-width: 320px) and (max-width: 750px){
+    .address{
+        border-top: 1px solid rgb(254, 93, 93);
+        padding-left: 20px;
+        padding-bottom: 20px;
+    }
+}
+@media screen and (min-width: 320px) and (max-width: 750px){
+.social{
+    border-top: 1px solid rgb(254, 93, 93);
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+}
+@media screen and (min-width: 320px) and (max-width: 750px){
+    .inquiries{
+        border-top: 1px solid rgb(254, 93, 93);
+        padding-left: 20px;
+        padding-bottom: 20px;
+    }
+}
+@media screen and (min-width: 320px) and (max-width: 750px){
+    .copy-right{
+        display: block;
+        padding-left: 20px;
+        padding-right: 0;
+    }
+}
+@media screen and (min-width: 320px) and (max-width: 750px){
+   #myBtn{
+    margin-top: 20px;
+    margin-bottom: 20px;
+   }
+
+}
+
+@media screen and (min-width: 320px) and (max-width: 750px){
+
+}
+@media screen and (min-width: 320px) and (max-width: 750px){
+
+}
+

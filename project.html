@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project</title>
+    <link rel="stylesheet" href="styles/project.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+</head>
+<body>
+    <header id="header">
+        <div class="header-container">
+            <div class="header-content">
+                <div class="left-content">
+                  <a href="index.html">  <h2>
+                        <b>DOMENA</b> builders 
+                    </h2></a>
+                </div>
+                <div class="right-content">
+                    <nav class="navigation">
+                        <ul>
+                      <li><a href="index.html">home</a>
+                    </li>
+                        <li><a href="services.html">services</a>
+                        </li>
+                        <li><a style=" color: rgb(254, 93, 93);"  href="project.html">project</a>
+                        </li>
+                        <li><a href="about.html">about us</a>
+                        </li>
+                        <li><a href="contant.html#target-section">contact us</a>
+                        </li>
+                        </ul>
+                    </nav>
+                    <a href="contant.html">
+                    <button class="header-btn">
+                        get a quote
+                        <i class="fa-solid fa-arrow-right-long"></i>
+                    </button>
+                </a>
+                <button class="sidebar-toggle" onclick="toggleSidebar()">
+                    <i class="fa-solid fa-bars"></i>
+                  </button>
+                  <aside class="sidebar">
+                    <div class="sidebar-header">
+                      <button class="close-btn"><i class="fas fa-times"></i></button>
+                    </div>
+                    <nav class="menu-navigation">
+                        <ul>
+                            <li><a href="index.html">home</a>
+                          </li>
+                          <li><a  href="services.html">services</a>
+                          </li>
+                          <li><a style=" color: rgb(254, 93, 93);" href="project.html">project</a>
+                          </li>
+                          <li><a href="about.html">about us</a>
+                          </li>
+                          <li><a href="contant.html#target-section">contact us</a>
+                          </li>
+                          </ul>
+                      </nav>
+                      
+                      
+                    </aside>
+                    <script>
+                        // mobile screen
+        
+        const toggleBtn=document.querySelector(".sidebar-toggle");
+        const closeBtn=document.querySelector(".close-btn");
+        const sidebar=document.querySelector(".sidebar");
+        const body = document.body;
+        toggleBtn.addEventListener("click",function(){
+        // sidebar.classList.contains("sidebar");
+        // console.log(show)
+        // method one
+        // if (sidebar.classList.contains("show-sidebar")){
+        //   sidebar.classList.remove("show-sidebar");
+        // }else{
+        //   sidebar.classList.add("show-sidebar");
+        // }
+        // method two
+        sidebar.classList.toggle("show-sidebar")
+        if (sidebar.classList.contains('show-sidebar')) {
+        body.style.overflow = 'hidden'; // Disable scrolling
+        } else {
+        body.style.overflow = 'auto'; // Enable scrolling
+        }
+        })
+        
+        closeBtn.addEventListener("click",function(){
+        sidebar.classList.toggle("show-sidebar")
+        if (sidebar.classList.contains('close-btn')) {
+        body.style.overflow = 'hidden'; // Disable scrolling
+        } else {
+        body.style.overflow = 'auto'; // Enable scrolling
+        }
+        })
+                    </script>
+            </div>
+            </div>
+        </div>
+      </header>
+<main>
+<section class="project">
+    <div class="project-caption">
+        <span>our project</span>
+        <h4>we build project that last</h4>
+    </div>
+    <div class="project-images">
+       <div class="clickable-image"
+       onclick="window.location.href='projectnavi.html?slide=0'">
+
+           <img src="images/brige gallery.webp" alt="image doesen't load1" >
+       <div class="image-cap">
+        <span>
+            sunset bridge 
+        </span>
+       </div>
+       </div>
+       <div class="clickable-image"
+       onclick="window.location.href='projectnavi.html?slide=1'">
+
+           <img src="images/truck gallery.webp" alt="image doesen't load2">
+           <div class="image-cap">
+            <span>
+                peack logistics center
+            </span>
+           </div>
+        </div>
+       <div class="clickable-image"
+       onclick="window.location.href='projectnavi.html?slide=2'">
+           <img src="images/person gallery.webp" alt="image doesen't load3">
+           <div class="image-cap">
+            <span>
+                brookline water line 
+            </span>
+           </div>
+        </div>
+       <div class="clickable-image"
+       onclick="window.location.href='projectnavi.html?slide=3'">
+           <img src="images/ongoing gallery.webp" alt="image doesen't load4">
+           <div class="image-cap">
+            <span>
+              sliver crest dam 
+            </span>
+           </div>
+        </div>
+       <div class="clickable-image"
+       onclick="window.location.href='projectnavi.html?slide=4'">
+
+           <img src="images/home galler.webp" alt="image doesen't load5">
+           <div class="image-cap">
+            <span>
+              celestial heights 
+            </span>
+           </div>
+        </div>
+       <div class="clickable-image"        
+       onclick="window.location.href='projectnavi.html?slide=5'">
+
+           <img src="images/glass home gallery.webp" alt="image doesen't load6">
+           <div class="image-cap">
+            <span>
+                north campus hq  
+            </span>
+           </div>
+        </div>
+       <div class="clickable-image"  
+       onclick="window.location.href='projectnavi.html?slide=6'">
+
+           <img src="images/project.webp" alt="image doesen't load7">
+           <div class="image-cap">
+            <span>
+              angela residence 
+            </span>
+           </div>
+        </div>
+       <div class="clickable-image"  
+       onclick="window.location.href='projectnavi.html?slide=7'">
+
+           <img src="images/project2.webp" alt="image doesen't load8">
+           <div class="image-cap">
+            <span>
+               system inq, hq 
+            </span>
+           </div>
+        </div>
+       <div class="clickable-image" 
+       onclick="window.location.href='projectnavi.html?slide=8'">
+           <img src="images/project3.webp" alt="image doesen't load9">
+           <div class="image-cap">
+            <span>
+              meadowbrook railway station
+            </span>
+           </div>
+        </div>
+    </div>
+</section>
+</main>
+
+      <footer>
+        <div class="footer-container">
+            <div class="footer-header">
+                <div class="company-name">
+                    <a href="index.html">  <h2>
+                        <b>DOMENA</b> builders 
+                    </h2></a>
+                    <nav class="footer-nav">
+                        <ul>
+                            <li><a href="index.html">home</a>
+                          </li>
+                          <li><a href="services.html">services</a>
+                          </li>
+                          <li><a style=" color: rgb(254, 93, 93);" href="project.html">project</a>
+                          </li>
+                          <li><a href="about.html">about us</a>
+                          </li>
+                          <li><a href="contant.html#target-section">contact us</a>
+                          </li>
+                          </ul>
+                    </nav>
+                </div>
+                <div class="address">
+                    <h4>head office</h4>
+                    <p>500 terry francine st,
+                        san francisco, AC 94158
+                    </p>
+                    <i>123-456-7890 <br>
+                    info@mysite.com </i>
+                </div>
+                <div class="social">
+                    <h4>socials</h4>
+                    <ul>
+                        <li> <a href="https://www.facebook.com/">
+                        facebook </a></li>
+                    <li><a href="https://www.instagram.com/">instagram
+                    </a></li>
+                    <li><a href="https://www.linkedln.com/">linkedln</a></li>
+                </ul>
+                </div>
+                <div class="inquiries">
+                    <h4>inquiries</h4>
+                    <p>looking for a quote</p>
+                    <a href="contant.html">
+                        <button class="footer-btn">
+                            get a quote
+                            <i class="fa-solid fa-arrow-right-long"></i>
+                        </button>
+                    </a>
+                    <p> <a href="contant.html#contractor">
+                        become a subcontractor
+                    </a></p>
+                </div>
+            </div>
+        </div>
+        <div class="copy-right">
+          <a href="#">privacy policy</a>
+          <button onclick="topFunction()" id="myBtn" title="Go to top">back to top
+            <i class="fa-solid fa-arrow-right-long"></i>
+          </button>  
+          <script>
+            // scrol back to the top
+           // Get the button
+   let mybutton = document.getElementById("myBtn");
+   
+   // When the user scrolls down 20px from the top of the document, show the button
+   window.onscroll = function() {scrollFunction()};
+   
+   function scrollFunction() {
+     if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+       mybutton.style.display = "block";
+     } else {
+       mybutton.style.display = "none";
+     }
+   }
+   
+   // When the user clicks on the button, scroll to the top of the document
+   function topFunction() {
+     document.body.scrollTop = 0; // For Safari
+     document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE, and Opera
+   }
+       </script>
+        <p>Copyright &copy;
+            <script>document.write(new Date().getFullYear());</script>
+             <i class="fa-solid fa-heart"></i>
+             by <a href="#" target="_blank">SATIVA</a>
+            </p>
+        </div>
+        
+    </footer>
+</body>
+</html>

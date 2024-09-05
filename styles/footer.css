@@ -1,0 +1,147 @@
+.footer-container{
+    border-top: 1px solid  rgb(254, 93, 93);
+    padding-top: 50px;
+    padding-left: 50px;
+    padding-right: 40px;
+    padding-bottom: 50px;
+    color: #2D2727;
+    border-bottom: 1px solid rgb(254, 93, 93);
+}
+.footer-header{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-between;
+}
+.company-name a{
+    text-decoration: none;
+  color: #2D2727;
+}
+.company-name h2{
+    
+    font-size: 28px;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+.footer-nav{
+    margin-top: 30px;
+}
+.footer-nav ul{
+    padding: 0;
+    list-style: none;
+    text-transform: uppercase;
+}
+.footer-nav li{
+    font-size: 16px;
+   font-weight: 500;
+   line-height: 3;
+   color: rgb(45, 39, 39);
+    /* padding-top: 20px; */
+}
+.footer-nav a{
+    text-decoration: none;
+    color: rgb(45, 39, 39);
+}
+.footer-nav a:hover{
+    color: rgb(254, 93, 93);
+    padding: 10px; 
+    transition: 0.3s ease-in-out;
+
+}
+.address h4{
+    text-transform: uppercase;
+    font-size: 14px;
+    line-height: 3;
+    color: rgb(45, 39, 39);
+}
+.address p{
+    letter-spacing: 0.05rem;
+    margin-top: 30px;
+    font-weight: 500;
+    font-size: 16px;
+    text-transform: capitalize;
+    width: 200px;
+    line-height: 1.6;
+    margin-bottom: 50px;
+}
+.address i{
+  color: rgb(45, 39, 39);
+  font-size: 16px;
+  font-weight: 500;
+}
+.social li{
+    text-transform: capitalize;
+    line-height: 5;
+list-style: none;
+
+}
+.social h4{
+    text-transform: uppercase;
+    font-size: 14px;
+    line-height: 3;
+    color: rgb(45, 39, 39);
+}
+.social a{
+    color: rgb(45, 39, 39);
+}
+.inquiries h4{
+    text-transform: uppercase;
+    font-size: 14px;
+    line-height: 3;
+    color: rgb(45, 39, 39);
+}
+.inquiries{
+    text-transform: capitalize;
+    line-height: 5;
+}
+.footer-btn{
+    border: 1px solid rgb(45, 39, 39);
+    padding: 25px ;
+    /* border: none; */
+    border-radius: 50px;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-style: normal;
+    color: rgb(45, 39, 39);
+    letter-spacing: 2px;
+    font-weight: bolder;
+    cursor: pointer;
+    background-color: rgb(254, 93, 93); 
+}
+.footer-btn i{
+    transform: rotate(50deg);
+    width: 30px;
+}
+
+.footer-btn:hover{
+    background-color: rgb(45, 39, 39);
+    color: #fff;
+   
+   
+}
+.footer-btn:hover.footer-btn i{
+    transform: rotate(360deg);
+    transition: all 0.3s linear;
+}
+.inquiries a{
+    color: rgb(45, 39, 39);
+}
+.copy-right{
+    color: #2D2727;
+    padding-left: 50px;
+    padding-right: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.copy-right a {
+    color: rgb(45, 39, 39);
+    font-size: 16px;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+}
+.copy-right p{
+    font-size: 16px;
+    letter-spacing: 1.8;
+}
