@@ -700,6 +700,8 @@ list-style: none;
 @media screen and (min-width: 751px) and (max-width: 1000px){
     .image-cap span{
         font-size: 14px;
+        line-height: normal;
+        padding-top: 20px;
     }
   }
   @media screen and (min-width: 751px) and (max-width: 1000px){
