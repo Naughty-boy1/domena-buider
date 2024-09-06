@@ -863,9 +863,15 @@ list-style: none;
         padding-left: 20px;
         padding-right: 20px;
         padding-top: 0;
-        display: block;
+        display: grid;
+        grid-template-columns: 1fr;
     }
     }
+@media screen and (min-width: 320px) and (max-width: 750px){
+    .clickable-image img{
+    height: 300px;
+   }
+}
 @media screen and (min-width: 320px) and (max-width: 750px){
 .navigation-container{
     display: none;
