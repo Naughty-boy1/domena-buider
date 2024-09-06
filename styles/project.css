@@ -694,7 +694,7 @@ list-style: none;
   }
 @media screen and (min-width: 751px) and (max-width: 1000px){
 .clickable-image img{
-    height: fit-content;
+    height: 70%;
 }
   }
 @media screen and (min-width: 751px) and (max-width: 1000px){
