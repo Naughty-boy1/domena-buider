@@ -60,7 +60,7 @@ body{
     background: url("./images/construction2.webp") center/cover no-repeat;
     height: 100%;
     /* opacity: ; */
-    background-color: rgba(0, 0, 0, 1);
+    /* background-color: rgba(0, 0, 0, 1); */
     background-attachment: fixed;
     
     

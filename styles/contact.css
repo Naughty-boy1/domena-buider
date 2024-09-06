@@ -292,11 +292,12 @@ svg{
     padding-left: 10px;
     height: 40px;
     background-color: #fff;
-    border: 0.1px solid;
+    border: 0.1px solid #2D2727;
     cursor: pointer; 
     box-sizing: border-box;
 }
 .sign{
+    color: #2D2727;
     font-weight: 500;
     right: 20px;
     top: 5px;
