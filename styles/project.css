@@ -17,7 +17,8 @@ body{
     padding: 0;
     left: 0;
     right: 0;
-    overflow: visible;
+    overflow: scroll;
+    /* overflow-x: hidden; */
 }
 /* sevices header */
 header {
@@ -389,34 +390,47 @@ object-fit: cover;
 
 /* mobile navi */
 .mobile-navi{
+    display: none;
+
+}
+.phone-container{
+    padding-right: 20px;
+    padding-left: 20px;
     position: relative;
     top: 100px;
-    display: none;
-    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 50vh;
-    font-family: Arial, sans-serif;
     text-align: center;
     flex-direction: column;
 }
-
 .instruction {
+    color: #2D2727;
     font-size: 1.5em;
     padding: 20px;
-    border: 2px solid #000;
+    border: 2px solid #2D2727;
     border-radius: 10px;
 }
 .blinking {
+    padding-bottom: 20px;
     font-size: 1.2em;
     color: red;
     animation: blink 1.5s infinite;
 }
 @keyframes blink {
-    0% { opacity: 1; }
+    0% { opacity: 0; }
     50% { opacity: 0; }
     100% { opacity: 1; }
+}
+.notice{
+font-size: 1em;
+    margin-top: 20px;
+    color: rgb(230, 39, 5);
+}
+.notice p{
+    display: inline-block;
+    width: 90%;
 }
 /* .mobile-slides {
     padding-top: 50px;
@@ -685,7 +699,12 @@ list-style: none;
 }
 }
   /*project body */
-  @media screen and (min-width: 751px) and (max-width: 1000px){
+@media screen and (min-width: 751px) and (max-width: 1000px){
+/* .mobile-navi{
+    display: none;
+} */
+}
+@media screen and (min-width: 751px) and (max-width: 1000px){
       .project-caption{
           padding-top: 30px;
           padding-left: 40px;
